@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0.82" cy="0.12" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect width="1200" height="900" fill="url(#r)"/>
+  <circle cx="970" cy="170" r="230" fill="#ffffff" opacity="0.12" filter="url(#blur)"/>
+  <circle cx="210" cy="770" r="190" fill="#000000" opacity="0.10" filter="url(#blur)"/>
+  <circle cx="600" cy="370" r="150" fill="#ffffff" opacity="0.14"/>
+  <text x="600" y="370" font-family="Inter,Arial,sans-serif" font-size="160" font-weight="800"
+        fill="#ffffff" text-anchor="middle" dominant-baseline="central">W</text>
+  <text x="600" y="600" font-family="Inter,Arial,sans-serif" font-size="46" font-weight="700"
+        fill="#ffffff" text-anchor="middle" opacity="0.96">WebTest Studio</text>
+  <text x="600" y="662" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600"
+        fill="#ffffff" text-anchor="middle" opacity="0.8" letter-spacing="6">SALON</text>
+</svg>
